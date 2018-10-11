@@ -22,6 +22,9 @@ MAINTAINER Example McAuthor
 # Update the repository sources list
 RUN apt-get update
 
+# Install wget
+RUN apt-get wget
+
 # Install MongoDB package (.deb)
 #RUN apt-get install -y mongodb-10gen
 
